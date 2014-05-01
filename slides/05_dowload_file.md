@@ -1,5 +1,5 @@
 # Download a File
-
+### Download to stdout
 ```bash
 $ curl http://www.google.com
 <!doctype html><html itemscope=""
@@ -8,8 +8,8 @@ lang="en"><head>
 ...
 ```
 
-### Save to a File
+### Save to a File "google-home.html"
 
 ```bash
-$ curl -o google.com http://www.google.com
+$ curl -o google-home.html http://www.google.com
 ```

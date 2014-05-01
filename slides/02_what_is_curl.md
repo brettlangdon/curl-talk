@@ -9,8 +9,8 @@ Supported Protocols:
 * FTP
 * FTPS
 * GOPHER
-* HTTP
-* HTTPS]
+* **HTTP**
+* **HTTPS**]
 .float-block[
 * IMAP
 * IMAPS
