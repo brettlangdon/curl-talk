@@ -2,6 +2,7 @@ SED=`which gsed || which sed`
 
 build: clean
 	@mkdir ./build
+	@cp ./remark-0.6.4.min.js ./build/
 	@for file in ./slides/*; do cat $$file >> ./build/slides.md; echo '\r\n---\r\n' >> ./build/slides.md; done;
 	@$(SED) -i -e :a -e '$$d;N;2,3ba' -e 'P;D' ./build/slides.md
 	@cp ./template.html ./build/index.html
