@@ -1,49 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>cURL Talk</title>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-<style type="text/css">
-  body{
-  font-size: 2em;
-  }
-  a,a:visited{
-  color: #F92672;
-  text-decoration: none
-  }
-  a:hover{
-  color: #000;
-  }
-  p{
-  margin: 0 0 .3em 0;
-  }
-  code {
-  border-radius: 6px;
-  background-color: #272822;
-  color: #ddd;
-  padding: 0 .3em 0 .3em;
-  font-size: .8em;
-  }
-  .remark-slide-content{
-  padding: 1em;
-  }
-  .float-block{
-  float: left;
-  width:33%;
-  }
-  h1 {
-  margin-top: 0;
-  padding-top: .1em;
-  margin-bottom: .1em;
-  padding-bottom: .1em;
-  }
-  ul{
-  margin-top: .2em;
-  }
-</style>
-</head>
-<body>
-<textarea id="source">
 class: center,middle
 
 # cURL
@@ -271,15 +225,3 @@ $ curl -k https://insecure-site.gov
 $ man curl
 $ curl --help
 ```
-</textarea>
-<script src="./remark-0.6.4.min.js" type="text/javascript">
-</script>
-<script type="text/javascript">
-  var slideshow = remark.create({
-  highlightLanguage: "javascript",
-  highlightInline: true,
-  highlightStyle: "monokai"
-  });
-</script>
-</body>
-</html>
